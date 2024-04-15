@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+.admin-content {
+    padding-top: 10px;
+    display: flex;
+}
+.admin-content-left {
+    background-color: #ddd;
+    width: 20%;
+    height: 100vh;
+    padding: 30px 0 0 12px;
+}
+.admin-content-left> ul> li> a {
+    font-weight: bold;
+    font-size: 18px;
+}
+.admin-content-left ul li {
+    margin: 6px 0;
+}
+.admin-content-left ul ul {
+    margin-left: 20px;
+}
+.admin-content-right {
+    width: 80%;
+    padding: 10px 0 0 18px;
+}
+.admin-content-right-cartegory-add input {
+    height: 30px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.admin-content-right-cartegory-add button {
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+.admin-content-right-cartegory-add button:hover {
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+
+/* ----cartegory_list */
+.admin-content-right-cartegory-list table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-content-right-cartegory-list table tr th,td {
+    border: 1px solid #ddd;
+}
+table {
+    border-collapse: collapse;
+}
+/* -----product */
+.admin-content-right-product-add h1 {
+    font-weight: bold;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 4px solid rgb(198 226 255);
+    border-radius: 4px;
+    padding-bottom: 6px;
+
+}
+.admin-content-right-product-add input,select {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 6px 0 12px;
+    padding-left: 12px;
+}
+.admin-content-right-product-add textarea {
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 6px;
+}
+.admin-content-right-product-add button {
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+.admin-content-right-product-add button:hover {
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
